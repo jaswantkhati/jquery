@@ -33,6 +33,9 @@ $(document).ready(function() {
         } else {
             $("#alert4").html('**Please Agree terms and conditions');
         }
+
+        // if all cunditions are sucess
+
         if ($("#alert1").text() == "**Sucess") {
             $("#alert1").css('color', 'green');
         }
