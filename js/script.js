@@ -4,8 +4,6 @@ $(document).ready(function() {
         var email = $("#email").val();
         var password = $("#pass").val();
         var conpassword = $("#conpass").val();
-
-
         if (email == '') {
             $("#alert1").html("please fill this");
         } else {
@@ -32,10 +30,8 @@ $(document).ready(function() {
         if ($("#check").is(":checked")) {
             $("#alert4").html('true');
             $("#alert4").css('color', '#339966');
-
         } else {
             $("#alert4").html('**Please Agree terms and conditions');
         }
-
     });
 })
